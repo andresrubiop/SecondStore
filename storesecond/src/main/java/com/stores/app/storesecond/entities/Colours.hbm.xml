@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28 nov. 2016 13:45:51 by Hibernate Tools 5.2.0.Beta1 -->
+<hibernate-mapping>
+    <class name="entities.Colours" table="colours" catalog="mydb" optimistic-lock="version">
+        <id name="idColours" type="int">
+            <column name="idColours" />
+            <generator class="assigned" />
+        </id>
+        <property name="nameColours" type="string">
+            <column name="nameColours" length="45" />
+        </property>
+        <set name="itemses" table="items" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="Colours_idColours" not-null="true" />
+            </key>
+            <one-to-many class="entities.Items" />
+        </set>
+    </class>
+</hibernate-mapping>
