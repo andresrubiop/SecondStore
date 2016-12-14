@@ -23,7 +23,7 @@ public class App
 		b.setNameBrands("Adidas");
 		
 		brand.create(b);
-		brand.
+		
 		
 		ColoursDao colour = new ColoursDaoImpl();
 		Colours c = new Colours();
