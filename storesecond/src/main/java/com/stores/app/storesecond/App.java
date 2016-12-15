@@ -1,5 +1,6 @@
 package com.stores.app.storesecond;
 
+
 import com.stores.app.storesecond.dao.BrandsDao;
 import com.stores.app.storesecond.dao.ColoursDao;
 import com.stores.app.storesecond.dao.impl.BrandsDaoImpl;
@@ -32,4 +33,6 @@ public class App
 		
 		colour.create(c);
     }
+    
+   
 }

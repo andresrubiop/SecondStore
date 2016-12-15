@@ -27,8 +27,7 @@ public class Items /*implements java.io.Serializable*/
 	@Column
 	private String linkItems;
 
-	public Items() 
-	{
+	public Items(){
 	}
 
 	public Items(int idItems, Brands brands, Colours colours)
