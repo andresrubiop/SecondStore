@@ -14,22 +14,20 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.websystique.springmvc")
 public class AppConfig {
-	
-	@Bean
-	public ViewResolver viewResolver() {
-		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setViewClass(JstlView.class);
-		viewResolver.setPrefix("/WEB-INF/views/");
-		viewResolver.setSuffix(".jsp");
 
-		return viewResolver;
-	}
-	
-	@Bean
-	public MessageSource messageSource() {
-	    ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-	    messageSource.setBasename("messages");
-	    return messageSource;
+ @Bean
+ public ViewResolver viewResolver() {
+  InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+   viewResolver.setViewClass(JstlView.class);
+   viewResolver.setPrefix("/WEB-INF/views/");
+   viewResolver.setSuffix(".jsp");
+  return viewResolver;
+ }
+ @Bean
+ public MessageSource messageSource() {
+  ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+   messageSource.setBasename("messages");
+  return messageSource;
 	}
 }
 

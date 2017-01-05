@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stores.app.storesecond.dao.BrandDaoImplTest">
+        <methods>
+          <include name="findBrandById"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="findById"/>
+          <include name="deleteBrandById"/>
+          <include name="deleteBrandByInvalidId"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="saveBrand"/>
+          <include name="findAllBrands"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.stores.app.storesecond.dao.BrandDaoImplTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

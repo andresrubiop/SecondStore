@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 4 janv. 2017 23:30:33 by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="entities.Item" table="item" catalog="mydb" optimistic-lock="version">
+        <id name="idItem" type="int">
+            <column name="idItem" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="brand" class="entities.Brand" fetch="select">
+            <column name="Brand_idBrand" not-null="true" />
+        </many-to-one>
+        <many-to-one name="category" class="entities.Category" fetch="select">
+            <column name="Category_idCategory" not-null="true" />
+        </many-to-one>
+        <many-to-one name="colour" class="entities.Colour" fetch="select">
+            <column name="Colour_idColour" not-null="true" />
+        </many-to-one>
+        <property name="nameItem" type="string">
+            <column name="nameItem" length="45" />
+        </property>
+        <property name="descriptionItem" type="string">
+            <column name="descriptionItem" length="45" />
+        </property>
+        <property name="linkItem" type="string">
+            <column name="linkItem" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
