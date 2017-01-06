@@ -18,6 +18,6 @@ public interface UserService {
   
   User findUserById(String idUser);
 
-  boolean isUserIdUnique(Integer id, String idUser);
+  
 
 }

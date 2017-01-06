@@ -1,77 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="6" failed="0" total="36" passed="30">
+<testng-results skipped="6" failed="0" total="66" passed="60">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1530" started-at="2017-01-06T01:26:32Z" finished-at="2017-01-06T01:26:34Z">
+  <suite name="Default suite" duration-ms="2653" started-at="2017-01-06T18:03:47Z" finished-at="2017-01-06T18:03:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1530" started-at="2017-01-06T01:26:32Z" finished-at="2017-01-06T01:26:34Z">
-      <class name="com.stores.app.storesecond.service.ItemServiceImplTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="setUp" is-config="true" duration-ms="5" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteColourById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="deleteColourById" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteColourById -->
-        <test-method status="PASS" signature="findAllItems()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="findAllItems" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findAllItems -->
-        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="findById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findById -->
-        <test-method status="PASS" signature="findItemById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="findItemById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findItemById -->
-        <test-method status="PASS" signature="saveItem()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="saveItem" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveItem -->
-        <test-method status="PASS" signature="updateItem()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@134593bf]" name="updateItem" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateItem -->
-      </class> <!-- com.stores.app.storesecond.service.ItemServiceImplTest -->
+    <test name="Default test" duration-ms="2653" started-at="2017-01-06T18:03:47Z" finished-at="2017-01-06T18:03:50Z">
       <class name="com.stores.app.storesecond.service.ColourServiceImplTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="setUp" is-config="true" duration-ms="10" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="setUp" is-config="true" duration-ms="6" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteColourById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="deleteColourById" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="deleteColourById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="deleteColourById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteColourById -->
-        <test-method status="PASS" signature="findAllColours()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="findAllColours" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findAllColours()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="findAllColours" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAllColours -->
-        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="findById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="findById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById -->
-        <test-method status="PASS" signature="findColourById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="findColourById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findColourById()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="findColourById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findColourById -->
-        <test-method status="PASS" signature="saveColour()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="saveColour" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="saveColour()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="saveColour" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveColour -->
-        <test-method status="PASS" signature="updateColour()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b53f538]" name="updateColour" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="updateColour()[pri:0, instance:com.stores.app.storesecond.service.ColourServiceImplTest@4b425577]" name="updateColour" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateColour -->
       </class> <!-- com.stores.app.storesecond.service.ColourServiceImplTest -->
-      <class name="com.stores.app.storesecond.dao.BrandDaoImplTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+      <class name="com.stores.app.storesecond.service.ItemServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="setUp" is-config="true" duration-ms="7" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="FAIL" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-01-06T02:26:33Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteColourById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="deleteColourById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteColourById -->
+        <test-method status="PASS" signature="findAllItems()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="findAllItems" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllItems -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="findById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findItemById()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="findItemById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findItemById -->
+        <test-method status="PASS" signature="saveItem()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="saveItem" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveItem -->
+        <test-method status="PASS" signature="updateItem()[pri:0, instance:com.stores.app.storesecond.service.ItemServiceImplTest@63a9c661]" name="updateItem" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateItem -->
+      </class> <!-- com.stores.app.storesecond.service.ItemServiceImplTest -->
+      <class name="com.stores.app.storesecond.dao.BrandDaoImplTest">
+        <test-method status="FAIL" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:48Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-01-06T19:03:48Z">
           <exception class="org.springframework.beans.factory.BeanCreationException">
             <message>
               <![CDATA[Error creating bean with name 'com.stores.app.storesecond.dao.BrandDaoImplTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.stores.app.storesecond.dao.BrandDao com.stores.app.storesecond.dao.BrandDaoImplTest.brandDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.stores.app.storesecond.dao.BrandDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}]]>
@@ -126,19 +122,23 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="deleteBrandById" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="deleteBrandById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrandById -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -149,19 +149,19 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="deleteBrandByInvalidId()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="deleteBrandByInvalidId" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="deleteBrandByInvalidId()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="deleteBrandByInvalidId" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrandByInvalidId -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -172,23 +172,19 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="findAllBrands()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="findAllBrands" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="findAllBrands()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="findAllBrands" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAllBrands -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -199,15 +195,19 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="findBrandById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="findBrandById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="SKIP" signature="findBrandById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="findBrandById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findBrandById -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -218,23 +218,19 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="findById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="findById" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="findById()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="findById" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById -->
-        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -245,15 +241,23 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="saveBrand()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="saveBrand" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="SKIP" signature="saveBrand()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="saveBrand" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveBrand -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@50085d9c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <params>
             <param index="0">
               <value>
@@ -264,97 +268,219 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.stores.app.storesecond.dao.BrandDaoImplTest@35a50a4c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
       </class> <!-- com.stores.app.storesecond.dao.BrandDaoImplTest -->
       <class name="com.stores.app.storesecond.service.UserServiceImplTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="setUp" is-config="true" duration-ms="9" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="setUp" is-config="true" duration-ms="6" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteUserById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="deleteUserById" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="deleteUserById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="deleteUserById" duration-ms="2" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserById -->
-        <test-method status="PASS" signature="findAllUsers()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="findAllUsers" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findAllUsers()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="findAllUsers" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAllUsers -->
-        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="findById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="findById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById -->
-        <test-method status="PASS" signature="findUserById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="findUserById" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="findUserById()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="findUserById" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findUserById -->
-        <test-method status="PASS" signature="saveColour()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="saveColour" duration-ms="1" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="saveColour()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="saveColour" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveColour -->
-        <test-method status="PASS" signature="updateUser()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@4bb4de6a]" name="updateUser" duration-ms="2" started-at="2017-01-06T02:26:34Z" finished-at="2017-01-06T02:26:34Z">
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:com.stores.app.storesecond.service.UserServiceImplTest@2e71240b]" name="updateUser" duration-ms="1" started-at="2017-01-06T19:03:50Z" finished-at="2017-01-06T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->
       </class> <!-- com.stores.app.storesecond.service.UserServiceImplTest -->
-      <class name="com.stores.app.storesecond.service.BrandServiceImplTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="setUp" is-config="true" duration-ms="272" started-at="2017-01-06T02:26:32Z" finished-at="2017-01-06T02:26:33Z">
+      <class name="com.stores.app.storesecond.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="setUp" is-config="true" duration-ms="59" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="deleteBrandById" duration-ms="17" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="deleteBrand()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="deleteBrand" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBrand -->
+        <test-method status="PASS" signature="deleteCategory()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="deleteCategory" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCategory -->
+        <test-method status="PASS" signature="deleteColour()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="deleteColour" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteColour -->
+        <test-method status="PASS" signature="deleteItem()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="deleteItem" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItem -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="deleteUser" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="editBrand()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="editBrand" duration-ms="39" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBrand -->
+        <test-method status="PASS" signature="editCategory()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="editCategory" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCategory -->
+        <test-method status="PASS" signature="editColour()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="editColour" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editColour -->
+        <test-method status="PASS" signature="editItem()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="editItem" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItem -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="editUser" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="listBrands()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="listBrands" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listBrands -->
+        <test-method status="PASS" signature="listCategories()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="listCategories" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listCategories -->
+        <test-method status="PASS" signature="listColours()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="listColours" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listColours -->
+        <test-method status="PASS" signature="listItems()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="listItems" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listItems -->
+        <test-method status="PASS" signature="listUsers()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="listUsers" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method status="PASS" signature="newBrand()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="newBrand" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newBrand -->
+        <test-method status="PASS" signature="newCategory()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="newCategory" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCategory -->
+        <test-method status="PASS" signature="newColour()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="newColour" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newColour -->
+        <test-method status="PASS" signature="newItem()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="newItem" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newItem -->
+        <test-method status="PASS" signature="newUser()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="newUser" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+        <test-method status="PASS" signature="saveBrandWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="saveBrandWithValidationError" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveBrandWithValidationError -->
+        <test-method status="PASS" signature="saveCategoryWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="saveCategoryWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveCategoryWithValidationError -->
+        <test-method status="PASS" signature="saveColourWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="saveColourWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveColourWithValidationError -->
+        <test-method status="PASS" signature="saveItemWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="saveItemWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveItemWithValidationError -->
+        <test-method status="PASS" signature="saveUserWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="saveUserWithValidationError" duration-ms="0" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserWithValidationError -->
+        <test-method status="PASS" signature="updateBrandWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="updateBrandWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBrandWithValidationError -->
+        <test-method status="PASS" signature="updateCategoryWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="updateCategoryWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCategoryWithValidationError -->
+        <test-method status="PASS" signature="updateColourWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="updateColourWithValidationError" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateColourWithValidationError -->
+        <test-method status="PASS" signature="updateItemWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="updateItemWithValidationError" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateItemWithValidationError -->
+        <test-method status="PASS" signature="updateUserWithValidationError()[pri:0, instance:com.stores.app.storesecond.controller.AppControllerTest@6f6efa4f]" name="updateUserWithValidationError" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithValidationError -->
+      </class> <!-- com.stores.app.storesecond.controller.AppControllerTest -->
+      <class name="com.stores.app.storesecond.service.BrandServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="setUp" is-config="true" duration-ms="466" started-at="2017-01-06T19:03:47Z" finished-at="2017-01-06T19:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="deleteBrandById" duration-ms="31" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrandById -->
-        <test-method status="PASS" signature="findAllBrands()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="findAllBrands" duration-ms="3" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findAllBrands()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="findAllBrands" duration-ms="7" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAllBrands -->
-        <test-method status="PASS" signature="findBrandById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="findBrandById" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findBrandById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="findBrandById" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findBrandById -->
-        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="findById" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="findById" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById -->
-        <test-method status="PASS" signature="saveBrand()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="saveBrand" duration-ms="2" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="saveBrand()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="saveBrand" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveBrand -->
-        <test-method status="PASS" signature="updateBrand()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@61ca2dfa]" name="updateBrand" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="updateBrand()[pri:0, instance:com.stores.app.storesecond.service.BrandServiceImplTest@3bb9ca38]" name="updateBrand" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBrand -->
       </class> <!-- com.stores.app.storesecond.service.BrandServiceImplTest -->
       <class name="com.stores.app.storesecond.service.CategoryServiceImplTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="setUp" is-config="true" duration-ms="5" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="setUp" is-config="true" duration-ms="6" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="deleteBrandById" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="deleteBrandById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="deleteBrandById" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrandById -->
-        <test-method status="PASS" signature="findAllCategories()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="findAllCategories" duration-ms="2" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findAllCategories()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="findAllCategories" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAllCategories -->
-        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="findById" duration-ms="2" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="findById" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById -->
-        <test-method status="PASS" signature="findCategoryById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="findCategoryById" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="findCategoryById()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="findCategoryById" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCategoryById -->
-        <test-method status="PASS" signature="saveCategory()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="saveCategory" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="saveCategory()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="saveCategory" duration-ms="1" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveCategory -->
-        <test-method status="PASS" signature="updateCategory()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@7ba18f1b]" name="updateCategory" duration-ms="1" started-at="2017-01-06T02:26:33Z" finished-at="2017-01-06T02:26:33Z">
+        <test-method status="PASS" signature="updateCategory()[pri:0, instance:com.stores.app.storesecond.service.CategoryServiceImplTest@5934153e]" name="updateCategory" duration-ms="2" started-at="2017-01-06T19:03:48Z" finished-at="2017-01-06T19:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateCategory -->

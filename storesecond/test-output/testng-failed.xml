@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.stores.app.storesecond.service.CategoryServiceImplTest">
+      <class name="com.stores.app.storesecond.controller.AppControllerTest">
         <methods>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.stores.app.storesecond.service.CategoryServiceImplTest -->
-      <class name="com.stores.app.storesecond.service.BrandServiceImplTest">
+      </class> <!-- com.stores.app.storesecond.controller.AppControllerTest -->
+      <class name="com.stores.app.storesecond.service.UserServiceImplTest">
         <methods>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.stores.app.storesecond.service.BrandServiceImplTest -->
+      </class> <!-- com.stores.app.storesecond.service.UserServiceImplTest -->
       <class name="com.stores.app.storesecond.dao.BrandDaoImplTest">
         <methods>
           <include name="findBrandById"/>
@@ -27,21 +27,26 @@
           <include name="springTestContextAfterTestMethod"/>
         </methods>
       </class> <!-- com.stores.app.storesecond.dao.BrandDaoImplTest -->
-      <class name="com.stores.app.storesecond.service.UserServiceImplTest">
+      <class name="com.stores.app.storesecond.service.CategoryServiceImplTest">
         <methods>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.stores.app.storesecond.service.UserServiceImplTest -->
-      <class name="com.stores.app.storesecond.service.ItemServiceImplTest">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.stores.app.storesecond.service.ItemServiceImplTest -->
+      </class> <!-- com.stores.app.storesecond.service.CategoryServiceImplTest -->
       <class name="com.stores.app.storesecond.service.ColourServiceImplTest">
         <methods>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.stores.app.storesecond.service.ColourServiceImplTest -->
+      <class name="com.stores.app.storesecond.service.ItemServiceImplTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.stores.app.storesecond.service.ItemServiceImplTest -->
+      <class name="com.stores.app.storesecond.service.BrandServiceImplTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.stores.app.storesecond.service.BrandServiceImplTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

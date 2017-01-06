@@ -51,9 +51,6 @@ public class UserServiceImpl implements UserService{
     return dao.findUserById(idUser);
   }
 
-  public boolean isUserIdUnique(Integer id, String idUser) {
-    User user = findUserById(idUser);
-    return ( user == null || ((id != null) && (user.getIdUser() == id)));
-  }
+ 
 
 }
