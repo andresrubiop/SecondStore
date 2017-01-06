@@ -17,6 +17,6 @@ public interface ItemService {
 	
 	Item findItemById(String idItem);
 
-	boolean isItemIdUnique(Integer id, String idItem);
+	
 
 }

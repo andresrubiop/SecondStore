@@ -17,6 +17,5 @@ public interface CategoryService {
   
   Category findCategoryById(String idCategory);
 
-  boolean isCategoryIdUnique(Integer id, String idCategory);
-
+ 
 }

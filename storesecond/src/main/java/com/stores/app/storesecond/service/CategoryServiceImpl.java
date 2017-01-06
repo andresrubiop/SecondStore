@@ -44,9 +44,6 @@ public class CategoryServiceImpl implements CategoryService{
     return dao.findCategoryById(idCategory);
   }
 
-  public boolean isCategoryIdUnique(Integer id, String idCategory) {
-    Category category = findCategoryById(idCategory);
-    return ( category == null || ((id != null) && (category.getIdCategory() == id)));
-  }
+ 
 
 }

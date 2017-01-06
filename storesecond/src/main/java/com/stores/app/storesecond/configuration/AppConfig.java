@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.websystique.springmvc")
+@ComponentScan(basePackages = "com.stores.app.storesecond")
 public class AppConfig {
 
  @Bean

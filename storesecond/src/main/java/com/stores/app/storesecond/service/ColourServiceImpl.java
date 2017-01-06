@@ -54,9 +54,6 @@ public class ColourServiceImpl implements ColourService{
 	}
 
 	//@Override
-	public boolean isColourIdUnique(Integer id, String idColour) {
-		Colour colour = findColourById(idColour);
-		return ( colour == null || ((id != null) && (colour.getIdColour() == id)));
-	}
+
 
 }

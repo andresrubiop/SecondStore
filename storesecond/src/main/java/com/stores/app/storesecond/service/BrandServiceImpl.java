@@ -50,9 +50,6 @@ public class BrandServiceImpl implements BrandService {
 		return dao.findBrandById(idBrand);
 	}
 
-	public boolean isBrandIdUnique(Integer id, String idBrand) {
-		Brand brand = findBrandById(idBrand);
-		return ( brand == null || ((id != null) && (brand.getIdBrand() == id)));
-	}
+	
 
 }

@@ -53,10 +53,7 @@ public class ItemServiceImpl implements ItemService{
 		return dao.findItemById(idItem);
 	}
 
-	//@Override
-	public boolean isItemIdUnique(Integer id, String idItem) {
-		Item item = findItemById(idItem);
-		return ( item == null || ((id != null) && (item.getIdItem() == id)));
-	}
+	
+	
 
 }

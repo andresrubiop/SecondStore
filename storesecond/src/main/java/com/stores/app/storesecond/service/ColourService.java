@@ -17,6 +17,6 @@ public interface ColourService {
 	
 	Colour findColourById(String idColour);
 
-	boolean isColourIdUnique(Integer id, String idColour);
+	
 
 }

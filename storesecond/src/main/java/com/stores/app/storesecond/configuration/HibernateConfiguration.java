@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "com.websystique.springmvc.configuration" })
+@ComponentScan({ "com.stores.app.storesecond.configuration" })
 @PropertySource(value = { "classpath:application.properties" })
 public class HibernateConfiguration {
 

@@ -19,7 +19,7 @@ public interface BrandService {
 	
 	Brand findBrandById(String idBrand);
 
-	boolean isBrandIdUnique(Integer id, String idBrand);
+	
 	
 }
 
