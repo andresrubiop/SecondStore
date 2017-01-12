@@ -57,6 +57,27 @@ public class AppController {
   @Autowired
   MessageSource messageSource;
 
+  /**
+   * This method just for test
+   * 
+   */
+  @RequestMapping(value = {"/getireygetir"}, method = RequestMethod.GET)
+  public String getirHamisini(ModelMap model){
+    model.addAttribute("brands", brandService.findAllBrands());
+    
+    /**
+     * Bu insert formasidi
+     */
+    
+//    
+//    Brand brand = new Brand();
+//    brand.setNameBrand("dsds");
+//    brand.setIdBrand(4);
+//    brandService.saveBrand(brand);
+    return "NewFile";
+  }
+  
+  
   /*
    * This method will list all existing employees.
    */
