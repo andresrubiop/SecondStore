@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<!--Modern design, nice interface and fully responsible for any device!-->
+<html lang="en">
+ <head>
+     <title>Quality Assurance</title>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+     <link rel="stylesheet" type="text/css" href="css/style.css" />
+     <link rel="stylesheet" type="text/css" href="css/mobil.css" />
+     <script type="text/javascript" src="jquery.min.js"></script>
+     <script type="text/javascript" src="myscript.js"></script>
+     <script type="text/javascript" src="angular.min.js"></script>
+ </head>
+    <body ng-app>     
+        <div id="header">
+           <img src="images/logo1.png" class="logo" />
+            <div class="menu">
+                <nav>
+                  <ul>
+                      <li class="first"><a href="index.html" class="hover">MAIN MENU</a></li>
+                      <li class="first subm"><a href="#"  class="hover">POPULAR ITEMS</a>
+                          <ul class="submenu">
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Kids</a></li>
+                          </ul>
+                      </li>
+                      <li class="first third"><a href="#"  class="hover">ABOUT US</a></li>
+                      <li class="first fourth"><a href="#"  class="hover">CONTACT</a></li>
+                  </ul>
+                </nav>
+            </div> 
+    <!-------Slide part------>
+         <div id="slider">
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="anime_word"><h1>Right choise</br>Suitable price<button class="shopnow">Start Shopping</button></h1></div>
+            <div class="anime_word2"><h1>More than 20</br>billion items<button class="shopnow1">Explore</button></h1></div>
+             <div class="anime_word3"><h1>Man, woman, kids.</br>Search your exact item<button class="shopnow2">Search</button></h1></div>
+             <ul class="slides">
+                <li class="slide"><img src="./images/f1.jpg"/></li>
+                <li class="slide"><img src="./images/f2.jpg"/></li>
+                <li class="slide"><img src="./images/f3.jpg"/></li>
+                <li class="slide"><img src="./images/f1.jpg"/></li>
+             </ul>
+          </div>
+</div>   
+    <!--middle content----->
+        <div class="middle">
+          <h1>Featured items</h1>
+            <ul class="featured">
+                <li class=main>
+                    <div class="over"><img src="./images/bag.jpg"></div>
+                    <h2>Cole Haan</h2>
+                    <p>150.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/glasses.jpeg" ></div>
+                    <h2>RALPH by Ralph Lauren.Vogue</h2>
+                    <p>250.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/hat.jpg" ></div>
+                    <h2>Stall & Dean Hats</h2>
+                    <p>80.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/bag2.jpeg" ></div>
+                    <h2>Emporio Armani</h2>
+                    <p>170.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/scarf.jpg" ></div>
+                    <h2>Check Cashmere Scarf</h2>
+                    <p>60.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/shirt.jpg" ></div>
+                    <h2>Redondo Logo Shirt</h2>
+                    <p>200.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/shoose.jpeg" ></div>
+                    <h2>New Ace Logo Sneakers</h2>
+                    <p>190.00$</p>
+                </li>
+                <li class=main>
+                    <div class="over"><img src="./images/watch.jpeg" ></div>
+                    <h2>De Ville Co-Axial Watch</h2>
+                    <p>1500.00$</p>
+                </li>
+            </ul>
+        </div>
+        
+    <!---------login and registration content------------>
+        <div class="logincontent">
+           <h1>To be able to use this website with full functionalities, please log in </h1>
+            
+            <div class="log_buttons">
+               <input type="submit" value="Log in" class="login"/>
+               <input type="submit" value="Registration" class="registration"/>
+                    
+                    <div class="login_page">
+                        <form class="forgot_pass_class" action="#" method="post">
+                                <h2>Login</h2>
+                                <input type="text" class="textfield" placeholder="email"/>
+                                <input type="password" class="textfield" placeholder="password" />
+                                <input type="submit" value="Log in" class="sub" />
+                                    <ul><li class="ctrl">forgotten password?</li></ul>
+                        </form>
+                        <div class="forgotten_pass">
+                         <form class="repair" name="repair" action="#" method="get">
+                          <p>You can restore your password with your email and security questions</p>
+                            <table>
+                                 <label>type your email</label>
+                                <tr><td><input type="text" name="username" class="in"/></td></tr>
+                                <tr><td>security questions</td></tr>
+                                <tr><td>what is your mother's maiden surname?</td></tr>
+                                <tr><td><input type="text" class="in"></td></tr>
+                                <tr><td>what is the name of your first pet?</td></tr>
+                                <tr><td><input type="text" class="in"></td></tr>
+                                <tr><td>what was your childhood nickname?</td> </tr>
+                                <tr><td><input type="text" class="in"></td></tr>
+                            </table>
+                               <button class="restore_button">restore</button>
+                        </form>
+                        </div>
+                     </div>
+                    <div class="registration_page">
+                       <form name="validation" action="#" method="post">
+                           
+                           <h2>Sign up</h2> 
+                           <input type="text" class="textfield" name="name" placeholder="name" ng-model="user.name" required ng-minlength="3">
+                           <span  ng-cloak ng-show="validation.name.$error.minlength">too short</span>
+                           
+                           <input type="text" class="textfield" name="surname" placeholder="surname" ng-model="user.surname" required ng-minlength="3">
+                           <span ng-cloak ng-show="validation.surname.$error.minlength">too short</span>
+                          
+                           <input type="email" class="textfield" name="email" placeholder="email" ng-model="user.email" required>
+                           <span  ng-cloak ng-show="validation.email.$dirty && validation.email.$error.email">not an email</span>
+                          
+                           <input type="text" class="textfield" name="password" placeholder="password" ng-model=user.password ng-pattern=user.retypePassword required="true" ng-minlength="6">
+                           <span ng-cloak ng-show="validation.password.$error.minlength">must be at least 6 symbols</span>
+                          
+                           <input type="text" class="textfield" name="retypePassword" placeholder="re-Type your password" ng-model=user.retypePassword ng-pattern=user.password required="true" ng-minlength="6">
+                           <span ng-cloak ng-show="validation.retypePassword.$dirty && validation.retypePassword.$invalid">Passwords do not match</span>
+                           
+                           <input ng-cloak ng-disabled="validation.$invalid" class="sub_mit" type="submit" name="signup" value="sign up">
+                           
+                        </form>
+                    </div>
+                
+            </div>
+        </div>
+
+<!----------------------about--------------------->
+
+   <div id="about_content">
+   
+       <div class=about_content>
+         <h2>About</h2>
+           <p>We have new stylish model clothes for everybody and for every season</br>
+              our second hand clothes store has 20 million kind clothes for different and cheap prices</p>
+       <img src="images/5.jpg" />
+       </div>
+       
+   </div>
+
+   <div id="footer">
+       <div class="footer">
+           <div class="left_footer">
+                 <h2>contact with us</h2> 
+            <ul>
+                <li class="adress">Adress: UAB, Bellaterra, Barcelona, Spain</li>
+                <li class="phone">Phone: +34602324022</li>
+                <li class="mail">adress: mursal_sheydayev@mail.ru"</li>
+                <li class="facebook"><a href="https://www.facebook.com/mursal675">chech out our facebook page!</a></li>
+           </ul>
+               
+           </div>
+           
+           <div class="middle_footer">
+               <h2>Office hours</h2>
+               <p>Monday to Friday</br>
+               8:00 am - 6:00 pm</br>
+               Saturday and Sunday</br>
+               9:00 am - 1:00 pm</br></p>
+           </div>
+           
+           <div class="right_footer">
+               <img class="mapImg" src="images/map.jpg" alt="">
+               <h3>You can send us your clothes to sell from worldwide</h3>
+           </div>
+        
+       </div>
+   </div>
+     
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
